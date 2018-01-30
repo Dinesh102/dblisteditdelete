@@ -25,7 +25,7 @@ public class DbUtil {
                 // String user = prop.getProperty("user");
                 // String password = prop.getProperty("password");
                 // Class.forName(driver);
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/srumea", "root", "");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/pravumeagu", "root", "");
             } catch (SQLException e) {
                 e.printStackTrace();
             } 
